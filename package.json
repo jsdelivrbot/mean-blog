@@ -1,0 +1,24 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "Nodejs Project setup using npm, Angular setup using bower to create setup project",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/vydyas/MEAN-Blog-Heroku"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "mongoose": "^4.8.5"
+  },
+  "engines": {
+    "node": "v6.9.5"
+  }
+}
